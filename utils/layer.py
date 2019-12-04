@@ -34,6 +34,3 @@ class MetaUpSample(Layer):
         y = tf.reshape(y,[w_shape[0],w_shape[1],w_shape[2],w_shape[3]//self.filters,1])
         y = tf.reduce_sum(y*meta_w,axis=-2)
         return y
-
-    def compute_output_shape(self, input_shape):
-        return input_shape[:-1] + (self.output_dim,)
