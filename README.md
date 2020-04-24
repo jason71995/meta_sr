@@ -1,4 +1,4 @@
-# Meta-SR in Keras and Tensorflow 2.0
+# Meta-SR on Keras and Tensorflow 2.0
 
 ## Introduction
 
